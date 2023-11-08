@@ -11,7 +11,7 @@ public class Calculadora {
 		
 		System.out.println("Digite o primeiro numero: ");
 		numero1 = leia.nextDouble();
-		System.out.println("Digite o segundoo numero: ");
+		System.out.println("Digite o segundo numero: ");
 		numero2 = leia.nextDouble();
 		
 		System.out.println("Soma: " +(numero1 + numero2));
