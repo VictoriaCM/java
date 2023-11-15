@@ -4,7 +4,7 @@ import java.util.Scanner;
 
 public class Exercicio_04 {
 
-	static Scanner leia = new Scanner(System.in);
+	static Scanner sc = new Scanner(System.in);
 
 	public static void main(String[] args) {
 
@@ -15,7 +15,7 @@ public class Exercicio_04 {
 		for (int indiceI = 0; indiceI < notas.length; indiceI++) {
 			for (int indiceJ = 0; indiceJ < notas[indiceI].length; indiceJ++) {
 				System.out.println("Digite a " + (indiceJ + 1) + "º nota do participante " + (indiceI + 1) + ": ");
-				notas[indiceI][indiceJ] = leia.nextFloat();
+				notas[indiceI][indiceJ] = sc.nextFloat();
 			}
 		}
 
